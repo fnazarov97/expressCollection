@@ -1,0 +1,93 @@
+body {
+    background:linear-gradient(to right, #00AAFF, #00FF6C);
+}
+.progects ul{
+    display: flex;
+    height: 2rem;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+.progects ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: none;
+    width:5rem;
+    height: 2rem;
+    background-color: bisque;
+
+}
+.progects ul li:hover{
+    background-color: rgb(53, 49, 45);
+
+}
+.progects ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    margin: 5px;
+}
+.progects ul li a:hover{
+    color: #fff;
+}
+
+.calculator {
+    background:linear-gradient(to right, #9aa1a8, #325a42);
+    width: 250px;
+    height: 300px;
+    background-color: #f0f0f0;
+    border-radius: 1rem;
+    margin: 3rem auto;
+    padding: 1rem;
+}
+
+#result {
+    padding: .5em;
+    width: 12.6rem;
+    border: none;
+    border-radius: 1rem;
+    height: 1.5rem;
+    font-size: large;
+    font-weight: bold;
+}
+
+.row1, .row2, .row3, .row4, .row5 {
+    width: 90%;
+    height: 40px;
+    background-color: #423b3b;
+    margin: 0 auto;
+    padding: 10px;
+    background:linear-gradient(to right, #9aa1a8, #325a42);
+}
+.row1{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.row5{
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.btn{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: black;
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+}
+.btn:hover{
+    color: rgb(0, 214, 252);
+	box-shadow: 5px 5px 15px 2px rgba(148, 148, 148, .4);
+	background: rgb(2,0,36);
+	background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(23,23,82,1) 20%, rgba(0,212,255,1) 100%);
+    cursor: pointer;
+}
+.equal{
+    width: 85px;
+}

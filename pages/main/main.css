@@ -1,0 +1,45 @@
+body{
+    background-color: green;
+}
+.progects h1{
+    text-align: center;
+    color: antiquewhite;
+}
+.progects ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(43, 45, 48);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.progects ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: none;
+    width:15rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border:1px #000 dashed;
+    background-color:rgb(233, 215, 198); 
+
+}
+.progects ul li:hover{
+    background-color: bisque;
+
+}
+.progects ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    margin: 5px;
+}
+.progects ul li a:hover{
+    color: rgb(19, 18, 18);
+}
